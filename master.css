@@ -1,0 +1,292 @@
+*
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html
+{
+    width: 100%;
+    margin: 0;
+} */
+body
+{
+    color: #3c3c3b;
+    width: 100%;
+}
+p{
+  margin-top: 2em;
+}
+img
+{
+    box-sizing: border-box;
+}
+div
+{
+    padding: 40px 20px;
+}
+footer{
+    position: relative;
+    color: white;
+    width: 100%;
+}
+.containerTitle
+{
+    bottom: 100px;
+    left: 250px;
+    position: absolute;
+    padding: 100px;
+    display: inline-block;
+    width: 50%;
+    color: rgba(255, 255, 255);
+}
+.header h1
+{
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    opacity: .5;
+    text-align: center;
+}
+.container
+{
+    box-shadow: 2px 0 8px 0.1px #bdbdbd;
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+    position: relative;
+}
+.body
+{
+    background-color: #f8f8f8;
+    display: flex;
+}
+.header
+{
+    position: relative;
+    text-align: center;
+    background-image: url("assets/img/banniere.jpg") ;
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.filtre-header{
+    height: 100%;
+    padding: 0;
+    position: relative;
+    background-color: #000a;
+}
+.header nav, .header ul, .header li, .searchconnection
+{
+    display: inline-block;
+}
+.preambule, .action, .liensinternes, .tutoriels
+{
+    width: 100%;
+    display: flex;
+}
+.preambule, .action, .subheader
+{
+    padding: 0;
+}
+.subheader
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.topone nav, #acceuil
+{
+    float: left;
+}
+.topone nav a, #acceuil
+{
+    padding: 12px;
+}
+#acceuil
+{
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 2em;
+}
+#btnLangue
+{
+    position: absolute;
+    background-color: yellowgreen;
+    border-style: none;
+    margin: 0;
+    height: 100%;
+    font-weight: bold;
+    color: #3c3c3b;
+}
+.aside
+{
+    box-shadow: -2px 0 8px 0.1px #bdbdbd;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    margin: 0;
+}
+.aside h4, .aside hr {
+    color: #6D4C41;
+}
+.aside h4{
+    font-weight: bolder;
+}
+.aside hr
+{
+    height: 1px;
+    background-color:#b58900;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
+.aside .subtitle a
+{
+    color: #004D40;
+    font-weight: bold;
+}
+.aside ul ul
+{
+    padding: 0;
+}
+.aside ul :last-child
+{
+    margin-bottom: 10px;
+}
+.aside .subtitle
+{
+    margin-bottom: 10px;
+}
+.aside a
+{
+    color: #3c3c3b;
+}
+.tutoriels
+{
+    background-color: white;
+}
+.searchconnection
+{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+article
+{
+    padding: 60px 20px;
+}
+.explication
+{
+    background-color: crimson;
+    color: white;
+    max-width: 500px;
+}
+.illustration
+{
+    padding: 12px 20px;
+    width: 100%;
+}
+.receptacle
+{
+    background-color: #3c3c3b;
+    min-width: 300px;
+}
+.action nav
+{
+    padding: 12px;
+    width: 100%;
+}
+.action nav a
+{
+    color: #3c3c3b;
+}
+li
+{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.toptwo
+{
+    padding: 8px;
+    box-shadow: inset 0px 4px 8px 0px #292929;
+    background-color: #3c3c3b;
+    position: relative;
+    text-align: left;
+    height: auto;
+    width: 100%;
+}
+.liensinternes
+{
+    background-color: crimson;
+}
+.liensinternes div
+{
+    width: 100%;
+}
+.mentionlegale
+{
+    background-color: #3c3c3b;
+    width: 100%;
+}
+.topone
+{
+    position: relative;
+    background-color: crimson;
+    padding: 0;
+    height: fit-content;
+    padding-left: 22px;
+    width: 100%;
+}
+.topthree
+{
+    position: relative;
+    height: auto;
+    padding: 0 40px;
+    text-align: right;
+}
+.clearboth{
+    clear: both;
+    height:auto;
+    display: flexbox;
+    padding: 0;
+    margin:0;
+}
+button, input{
+    height: 54px;
+    border-style: none;
+    padding: 0 6px;
+    background-color: #ffffff33;
+}
+button:focus, input:focus{
+    outline-color: #fff3;
+    outline-style:ridge;
+  }
+#connnexion{
+    background-color: #292929;
+    margin: 0;
+    color: white;
+}
+.topone nav
+{
+  margin-top:20px;
+}
+.topone nav a
+{
+  font-size: .8em;
+  padding: 5px 12px;
+}
+.toptwo nav a
+{
+  font-size: .8em;
+  padding: 0 12px;
+}
+.active{
+    font-weight: 900;
+}
