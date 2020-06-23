@@ -28,12 +28,12 @@
             </article>
             <article>
                 <a href=""><img src="assets/img/docvert.svg" alt=""></a>
-		<p>
-		    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		    Modi nulla nemo sequi deserunt ducimus aperiam reprehenderit ea
-		    accusamus praesentium laboriosam accusantium
-		    autem ad commodi consectetur nesciunt corrupti, soluta quisquam molestias!
-		</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi nulla nemo sequi deserunt ducimus aperiam reprehenderit ea
+                    accusamus praesentium laboriosam accusantium
+                    autem ad commodi consectetur nesciunt corrupti, soluta quisquam molestias!
+                </p>
             </article>
         </section>
     </div>

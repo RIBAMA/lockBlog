@@ -28,6 +28,8 @@ function navigate ( string $destination ) {
                             <li><a href="solutions.php" <?= navigate("/solutions.php")?> >Solutions</a></li>
                             <li><a href="tutoriels.php" <?= navigate("/tutoriels.php")?> >Tutoriels</a></li>
                             <li><a href="forum.php" <?= navigate("/forum.php")?> >Forum</a></li>
+                            <li><a href="contact.php" <?= navigate("/contact.php")?> >contact</a></li>
+                            <li><a href="cv.php" <?= navigate("/cv.php")?> >CV</a></li>
                         </ul>
                     </nav>
                     <div class="searchconnection">
